@@ -6,6 +6,6 @@ Validation Rules:
 ->Password must be at least 8 characters.
 ->Confirm Password must match Password.
 
-On Submittion of form:
+On Submiting the form:
 ->Validates each field.
 ->Shows inline error messages if invalid.
