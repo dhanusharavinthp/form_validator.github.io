@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(to right, #ffe6e6, #e0c3fc);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+#form {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #11235a;
+  margin-bottom: 25px;
+}
+
+#form button {
+  background-color: #11235a;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+#form button:hover {
+  background-color: #0d1d47;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #365486;
+}
+
+.input-group input {
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: border 0.3s ease;
+}
+
+.input-group input:focus {
+  border: 1px solid #11235a;
+  outline: none;
+}
+
+.input-group .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.input-group.success input {
+  border-color: green;
+}
+
+.input-group.error input {
+  border-color: red;
+}
+#success-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px;
+  color: #2e7d32;
+  background-color: #c8e6c9;
+  border: 1px solid #81c784;
+  border-radius: 5px;
+  display: none;
+}
+
+#success-message.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
